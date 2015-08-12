@@ -41,17 +41,23 @@ body {
 
 }
 
-#SideBar{
-	background:none;
+.SideBar{
+	background-color:green;
 	border:2px solid black;
-	width:140px;
+	width:30px;
 	height:600px;
 	margin-top:0px;
 	margin-left:0px;
-	margin-right:100px;
+	margin-right:0px;
 	margin-bottom:20px;
 	float:left;
+	transition: all .8s;
 }
+
+.SideBar:hover{
+	width:150px;
+}
+
 
 h1 {
 	text-align: center;
@@ -69,10 +75,33 @@ h1 {
 
 nav ul{
 	list-style: none;
+	padding-left: 150px;
+	padding-right: 150px;
 }
 
 nav ul li{
 	display:inline-block;
 	text-align: center;
 	margin-bottom: 10px;
+	margin-right: 70px;
+	font-style:italic;
+}
+
+#sideBarTitle{
+	text-align: center;	
+	padding:40px;
+	color:lightgray;
+}
+
+ul li {
+	display:block;
+	list-style: none;
+}
+
+#topics {
+	border:5px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid gray;
+	color:lightgray;
+	font-style: italic;
 }
