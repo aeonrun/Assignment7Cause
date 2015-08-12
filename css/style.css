@@ -1,0 +1,46 @@
+body {
+	background:lightgray;
+	border:2px solid red;
+	width:960px;
+	height:700px;
+	margin:auto;
+}
+
+#container{
+	background:none;
+	border:2px solid blue;
+	width:90%;
+	height:90%;
+	margin:auto;
+	margin-top: 40px;	
+	margin-bottom: 20px;
+}
+
+#innerHeader{
+	background:none;
+	border:2px solid black;
+	margin-top:100px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+}
+
+#signup {
+	background:none;
+	border:2px solid black;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left: 100px;
+	margin-right:100px;
+}
+
+.form{
+	text-align: center;
+
+}
+
