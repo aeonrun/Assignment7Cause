@@ -1,6 +1,6 @@
 body {
-	background:lightgray;
-	border:2px solid red;
+	background:white;
+	border:2px solid white;  /* body*/
 	width:960px;
 	height:2000px;
 	margin:auto;
@@ -8,7 +8,7 @@ body {
 
 #MPcontainer{
 	background:none;
-	border:2px solid blue;
+	border:2px solid white;  /* container inside body*/
 	width:90%;
 	height:95%;
 	margin:auto;
@@ -25,9 +25,16 @@ body {
 	margin-bottom:20px;
 }
 
-#MPinnerHeader{
+.MPnav{
+	font-style: bold;
+	border-bottom: 1px solid black;
+	height:30px;
+	margin-bottom: 20px;
+}
+
+#MPinnerHeader{  /* horizontal menu bar*/
 	background:none;
-	border:2px solid blue;
+	border:2px solid white;  /* horizontal menu bar outline*/
 	margin-top:20px;
 	margin-left:150px;
 	margin-right:0px;
@@ -41,23 +48,6 @@ body {
 
 }
 
-.SideBar{
-	background-color:green;
-	border:2px solid black;
-	width:30px;
-	height:600px;
-	margin-top:0px;
-	margin-left:0px;
-	margin-right:0px;
-	margin-bottom:20px;
-	float:left;
-	transition: all .8s;
-}
-
-.SideBar:hover{
-	width:150px;
-}
-
 
 h1 {
 	text-align: center;
@@ -66,7 +56,7 @@ h1 {
 
 #logo{
 	float:left;
-	margin-left:30px;
+	margin-left:60px;
 }
 
 .nav{
@@ -87,21 +77,74 @@ nav ul li{
 	font-style:italic;
 }
 
-#sideBarTitle{
-	text-align: center;	
-	padding:40px;
-	color:lightgray;
+
+.SideBar{
+	background-color:black;
+	border:2px solid black;
+	width:30px;
+	height:1809px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:20px;
+	float:left;
+	transition: all .5s;
+	position: fixed;
 }
 
-ul li {
-	display:block;
+.SideBar:hover{
+	width:135px;
+}
+
+
+.sideBarTitle{
+	text-align:left;	
+	color:black;
+}
+
+
+.topics ul li {
+	display:inline;
 	list-style: none;
+	margin-left:0px;
 }
 
-#topics {
-	border:5px;
-	margin-bottom: 10px;
-	border-bottom: 1px solid gray;
-	color:lightgray;
+
+.topics {
+	border:0px;
+	color:white;
 	font-style: italic;
+	left:10px;
+	display:inline;
+	list-style:none;
+}
+
+.hoverbar{
+	width:150px;
+	height:40px;
+	border-bottom: 1px solid white;
+}
+
+#topicspace{
+	margin-left: 20px;
+}
+
+a:link {
+	color:black;
+	text-decoration: none;
+	font-style: 
+}
+
+.latestpod{
+	width:710px;
+	height:500px;
+	margin-top:30px;
+	margin-left: 150px;
+	border-left:20px;
+	position:relative;
+}
+
+#podcasts{
+	margin-bottom: 20px;
+	font-size: 85%;
 }
